@@ -3,9 +3,9 @@
 Este proyecto es un Weather API Wrapper, diseñado para obtener datos meteorológicos desde una API de terceros y mejorar el rendimiento mediante almacenamiento en caché con Redis.
 
 ## ⚙️ Tecnologías Utilizadas
-# Java + Spring Boot 🖥️
-# Redis 🏪 (para almacenamiento en caché)
-# API de terceros (como Visual Crossing's API)
+### Java + Spring Boot 🖥️
+### Redis 🏪 (para almacenamiento en caché)
+### API de terceros (como Visual Crossing's API)
 
 ## 📌Arquitectura
 ### El sistema sigue este flujo:
