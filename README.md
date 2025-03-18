@@ -18,4 +18,5 @@ Este proyecto es un Weather API Wrapper, diseñado para obtener datos meteoroló
 
 ## 📡 Endpoints
 http://localhost:8080/clima/{nombre_cuidad}
+<br>
 http://localhost:8080/clima/{nombre_cuidad}/all
