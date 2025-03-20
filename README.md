@@ -10,9 +10,13 @@ Este proyecto es un Weather API Wrapper, diseñado para obtener datos meteoroló
 ## 📌Arquitectura
 ### El sistema sigue este flujo:
 1️⃣ Se consulta Redis para verificar si los datos del clima ya están almacenados.
+<br>
 2️⃣ Si existen en Redis, se devuelven directamente.
+<br>
 3️⃣ Si no, se solicita la información a la API de terceros.
+<br>
 4️⃣ Los datos obtenidos se almacenan en Redis con una expiración determinada.
+<br>
 5️⃣ Se devuelve la respuesta al usuario.
 
 
