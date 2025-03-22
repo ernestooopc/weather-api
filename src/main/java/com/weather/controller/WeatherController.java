@@ -23,7 +23,7 @@ import org.slf4j.Logger;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class WeatherController {
 
     private static final Logger logger = LoggerFactory.getLogger(WeatherController.class);
