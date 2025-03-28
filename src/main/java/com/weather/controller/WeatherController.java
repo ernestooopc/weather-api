@@ -93,7 +93,7 @@ public class WeatherController {
             result.add(new Weather(datetime, tempmax, tempmin, temp, humidity, windspeed, visibility, solarradiation, description));
             
         }
-        return result;
+        return result.size() > 10 ? result.subList(0, 10) : result;
 
     }
 
